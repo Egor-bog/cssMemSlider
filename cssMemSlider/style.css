@@ -1,0 +1,31 @@
+.slides{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.wrapper {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+}
+
+.slider1 {
+    width: 100%;
+    height: 100%; 
+}
+
+.sliser__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("./assets/1513526887_preview_Mike_Wazowski_003.jpg");
+}
