@@ -9,33 +9,49 @@
     <title>Slider</title>
 </head>
 <body>
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+
     <div class="slides">
         <div class="wrapper">
             <div class="item">
-                <div class="slider1">
-                    <div class="sliser__img"></div>
+                <div class="slider slider1">
+                    <div class="sliser__img img1"></div>
+                </div>
+                <div class="slider slider2">
+                    <div class="sliser__img img2"></div>
+                </div>
+                <div class="slider slider3">
+                    <div class="sliser__img img3"></div>
+                </div>
+                <div class="slider slider4">
+                    <div class="sliser__img img4"></div>
                 </div>
             </div>
-            <div class="item">
-                <div class="slider2">
-                    <div class="sliser__img"></div>
-                </div>
+            
+            <div class="quotes">
+                <p class="quotes">Only I can change my life.</p>
+                <p class="quotes">In the middle of difficulty lies opportunity.</p>
+                <p class="quotes">Success is 99% failure.</p>
+                <p class="quotes">Life is like riding a bicycle.</p>
             </div>
-            <div class="item">
-                <div class="slider3">
-                    <div class="sliser__img"></div>
+            <div id="controls">
+                <div class="controls__button">
+                    <label for="slide1"></label>
                 </div>
-            </div>
-            <div class="item">
-                <div class="slider4">
-                    <div class="sliser__img"></div>
+                <div class="controls__button">
+                    <label for="slide2"></label>
                 </div>
-            </div>
-        </div>
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
-        <input type="radio" name="slider" id="slide4">
+                <div class="controls__button">
+                    <label for="slide3"></label>
+                </div>
+                <div class="controls__button">
+                    <label for="slide4"></label>
+                </div>
+             </div>
+        </div>    
     </div>
 </body>
 </html>
