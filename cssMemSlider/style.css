@@ -135,4 +135,14 @@ input {
     border: 1px solid #fff;
  } 
   
+ @media screen and (max-width: 769px) {
+    .sliser__img {
+        height: 0%;
+        min-height: 350px;
+        background-position: center center;
+    }
 
+    #controls {
+        top: 60%;
+    }
+}
